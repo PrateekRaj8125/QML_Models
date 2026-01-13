@@ -6,7 +6,7 @@ This repository is maintained for **academic and research purposes**.
 Security fixes are provided **only for the latest version** on the default branch.
 
 | Version | Supported |
-|--------|-----------|
+| --- | --- |
 | Latest (main) | ✅ |
 | Older releases | ❌ |
 
@@ -18,17 +18,19 @@ This project uses **GitHub Private Vulnerability Reporting**.
 
 Please report security issues **privately** using GitHub Security Advisories:
 
-👉 https://github.com/PrateekRaj8125/QML_Models/security/advisories/new
+👉 [https://github.com/PrateekRaj8125/QML_Models/security/advisories/new]([https://github.com/PrateekRaj8125/QML_Models/security/advisories/new)
 
 Do **not** open public GitHub issues for security vulnerabilities.
 
 ### What to Include
+
 - Clear description of the vulnerability
 - Steps to reproduce (proof-of-concept if possible)
 - Potential impact and severity
 - Suggested mitigation (optional)
 
 ### Response Timeline
+
 - Initial acknowledgment: **within 72 hours**
 - Status update: **within 7 days**
 
@@ -46,9 +48,10 @@ This repository is part of a **university-level research** and follows standard 
 
 ## 📦 Dependency Security
 
-Dependencies are defined in `requirements.txt` and monitored automatically via **GitHub Dependabot**.
+Dependencies are defined in `docs/requirements.txt` and monitored automatically via **GitHub Dependabot**.
 
 Recommended user practices:
+
 - Use isolated virtual environments
 - Keep dependencies updated
 - Run local security checks:
