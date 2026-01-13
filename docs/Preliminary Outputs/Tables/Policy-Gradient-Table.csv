@@ -1,0 +1,3 @@
+Model,Average Episode Reward,Final Episode Reward
+Classical Policy Gradient,12.145,12
+Quantum Policy Gradient,11.21,12

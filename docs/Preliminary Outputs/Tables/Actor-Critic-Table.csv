@@ -1,0 +1,3 @@
+Model,Average Episode Reward,Final Episode Reward
+Classical Actor–Critic,11.89,15
+Quantum Actor–Critic,10.89,11

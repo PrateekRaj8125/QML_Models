@@ -1,0 +1,3 @@
+Model,Average Accuracy,Final Accuracy
+Classical Bayesian,0.978,1.0
+Quantum Bayesian,0.8019999999999999,0.84
