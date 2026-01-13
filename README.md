@@ -1,133 +1,116 @@
-# Quantum Machine Learning for Strategic Decision Making
+# Machine Learning & Reinforcement Learning Algorithms
 
-This repository is currently under developement for implementation of quantum machine learning on strategic decision making for optimal output
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Stage 1 — Learn Only the Needed Quantum Basics
+This repository contains a collection of Jupyter notebooks implementing fundamental machine learning, decision-making, and reinforcement learning algorithms.
+Each notebook focuses on a specific concept, combining theory with practical implementation for educational and experimental purposes.
 
-- **Goal**: Understand enough quantum computing to implement QML.
+---
 
-    *Day 1–2*: Minimum QC Theory
+## 📂 Repository Structure
 
-    Everyone learns:
+code  
+    ├── actor-critic.ipynb  
+    ├── bayesian-decision-making.ipynb  
+    ├── logistic-regression.ipynb  
+    ├── multi-arm-bandit.ipynb  
+    ├── neural-network.ipynb  
+    ├── policy-gradient.ipynb  
+    ├── q-learning.ipynb  
+    └── svm.ipynb  
 
-    - Qubits & superposition
-    - Basic gates (X, Y, Z, H, CNOT, Rotation gates)
-    - Measurement
-    - Quantum circuits
+---
 
-    Use:
-    - Qiskit textbook (free)
-    - PennyLane “Intro to Quantum” tutorials
+## 📘 Notebook Descriptions
 
-    *Day 3–4*: What is QML?
+1. [Logistic Regression](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/logistic-regression.ipynb)
+    - Binary classification using logistic regression
+    - Model formulation, training, and evaluation
+    -Gradient-based optimization
 
-    Learn:
-    - Angle embedding
-    - Amplitude embedding
-    - Variational Quantum Circuits (VQC)
-    - Quantum Neural Networks (QNNs)
-    - Hybrid quantum-classical training
+2. [Support Vector Machine (SVM)](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/svm.ipynb)
+    - Linear and margin-based classification
+    - Decision boundaries and hinge loss
+    - Practical implementation from scratch
 
-    Watch:
-    - Xanadu PennyLane QML crash course
-    - Qiskit ML playlist
+3. [Neural Network](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/neural-network.ipynb)
+    - Feedforward neural network implementation
+    - Activation functions and backpropagation
+    - Training and inference workflow
 
-    *Day 5–7*: Divide Topics for Literature Review
-    Each member summarizes 3–4 papers.
+4. [Bayesian Decision Making](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/bayesian-decision-making.ipynb)
+    - Probabilistic reasoning under uncertainty
+    - Bayesian inference and decision rules
+    - Applications to optimal decision policies
 
-    Topics:
-    - QML basics
-    - VQC for classification
-    - QRL (Quantum Reinforcement Learning)
-    - Quantum advantage claims
-    - Applications in strategy: finance, optimization, multi-agent systems
+5. [Multi-Armed Bandit](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/multi-arm-bandit.ipynb)
+    - Exploration vs. exploitation trade-off
+    - ε-greedy and related strategies
+    - Performance comparison of bandit algorithms
 
-    Deliverables by end of Week 1:  
-    ✔ Literature survey  
-    ✔ Understand VQC models  
-    ✔ Choose QML framework: PennyLane (recommended)  
+6. [Q-Learning](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/q-learning.ipynb)
+    - Model-free reinforcement learning
+    - Q-table updates and temporal-difference learning
+    - Policy derivation from learned values
 
-    *Week 2* — Build QML Foundations
+7. [Policy Gradient](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/policy-gradient.ipynb)
+    - Direct policy optimization methods
+    - Stochastic policies and gradient estimation
+    - Reinforcement learning with function approximation
 
-- **Goal**: Implement small QML models so your team becomes comfortable.
+8. [Actor-Critic](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/actor-critic.ipynb)
+    - Hybrid value-based and policy-based approach
+    - Actor and critic architecture
+    - Advantage estimation and learning stability
 
-    Choose one framework:
-    - PennyLane + PyTorch (easiest)
-    - Qiskit Machine Learning
+---
 
-    *Day 8–10*: Everyone Implements a Simple QML Classifier
-    
-    Example tutorial to follow:
-    - PennyLane “Variational Classifier”
-    - Build model on Iris dataset
-    - Team Member B leads.
+## 🛠️ Requirements
 
-    *Day 11–13*: Play With More Complex QML Models
+To run the notebooks, ensure the following are installed:
 
-    Optional models:
-    - Quantum Kernel-based SVM
-    - QAOA for optimization
-    - VQC for regression
+- Python 3.8+
+- Jupyter Notebook / JupyterLab
+- NumPy
+- Pandas
+- Matplotlib
+- (Optional) SciPy, scikit-learn
 
-    *Day 14*: Decide the Final Experiment Setup
-    
-    Pick ONE for your research experiment:
-    - Option A: QML for Game-Theoretic Decisions
-        - Predict opponent action
-        - Quantum classifier for rock-paper-scissors strategy
-    - Option B: QML for Multi-Armed Bandit Decisions (Best choice)
-        - Use a VQC to predict best arm
-        - Compare with classical models
-        - wShow regret curves
-    - Option C: QML for Supply Chain / Pricing decision
-    - Classify optimal pricing or inventory action
-    - Team D finalizes choice and dataset.
+Install dependencies using:
 
-    Deliverables by end of Week 2:  
-    ✔ Working QML models  
-    ✔ Classical ML baseline models ready  
-    ✔ Final idea + dataset/environment chosen  
+```bash
+    pip install numpy matplotlib scikit-learn jupyter
+```
 
-    *Week 3* — Implement the Strategic Decision-Making Model
+---
 
-- **Goal**: Apply QML to your decision-making task.
+## ▶️ How to Run
 
-    *Day 15–17*: Build Problem Environment
+1. Clone the repository:
 
-    Examples:
-    - If multi-armed bandit:
-    - Simulate reward distributions
-    - Encode context as angles
-    - Use QML model to choose arm
+    ```bash
+        git clone https://github.com/PrateekRaj8125/QML_Models
+        cd QML_Models
+    ```
 
-    If game theory:
-    - Encode opponent behavior vectors
-    - Train QML model to classify best response
+2. Launch Jupyter Notebook:
 
-    *Day 18–20*: Train & Evaluate QML Model
+    ```bash
+        jupyter notebook
+    ```
 
-    Train with gradient descent
+3. Open any .ipynb file and run the cells sequentially.
 
-    Use 4–8 qubits only (for simulators)
-    Track:
-    - accuracy
-    - reward
-    - regret
-    - stability
+---
 
-    *Day 21*: Compare with Classical Models
-    
-    Team C leads baseline models:
-    - Logistic regression
-    - Shallow neural network
-    - SVM
+## 🎯 Purpose
 
-    Make comparison plots:
-    - Accuracy vs iterations
-    - Reward vs episodes
-    - Decision quality
+This repository is intended for:
 
-    Deliverables by end of Week 3:  
-    ✔ Fully trained QML and classical models  
-    ✔ Performance comparison  
-    ✔ Preliminary results  
+- Learning core machine learning and reinforcement learning algorithms
+- Academic coursework and self-study
+- Experimentation with algorithmic concepts from scratch
+
+---
