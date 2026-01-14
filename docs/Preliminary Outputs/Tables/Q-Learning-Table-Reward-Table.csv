@@ -1,0 +1,3 @@
+Model,Average Episode Reward,Final Episode Reward
+Classical Q-Learning,7.535,5.0
+Quantum Q-Learning,11.92,10.0

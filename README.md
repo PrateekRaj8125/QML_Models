@@ -23,6 +23,16 @@ code
 
 ---
 
+## Research Paper
+
+The following algorithms are specifically used in the research paper:
+
+1. [Support Vector Machine (SVM)](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/svm.ipynb)
+2. [Multi-Armed Bandit](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/multi-arm-bandit.ipynb)
+3. [Q-Learning](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/q-learning.ipynb)
+
+---
+
 ## 📘 Notebook Descriptions
 
 1. [Logistic Regression](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/logistic-regression.ipynb)
