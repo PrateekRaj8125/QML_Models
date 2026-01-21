@@ -1,0 +1,3 @@
+Model,Final Cumulative Reward,Final Cumulative Regret
+Classical ε-greedy,236,7.199999999999999
+Quantum policy circuit,254,0.0
