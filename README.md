@@ -12,6 +12,10 @@ Each notebook focuses on a specific concept, combining theory with practical imp
 ## 📂 Repository Structure
 
 code  
+    ├── Research Models  
+    │   ├── multi-arm-bandit.ipynb  
+    │   ├── q-learning.ipynb  
+    │   ├── svm.ipynb  
     ├── actor-critic.ipynb  
     ├── bayesian-decision-making.ipynb  
     ├── logistic-regression.ipynb  
