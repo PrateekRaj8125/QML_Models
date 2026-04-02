@@ -37,7 +37,9 @@ The following algorithms are specifically used in the research paper:
 
 ---
 
-## 📘 Notebook Descriptions
+## 📘 Extra Algorithms
+
+**These algorithms are realted to the topic of the research paper but are not specifically used.**
 
 1. [Logistic Regression](https://github.com/PrateekRaj8125/QML_Models/blob/master/code/logistic-regression.ipynb)
     - Binary classification using logistic regression
